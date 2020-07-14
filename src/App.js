@@ -5,7 +5,7 @@ import Header from './components/Header';
 import HomePage from './components/HomePage';
 import Contact from './components/Contact';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import headshot from './components/headshot.JPG';
+
 import emoji from './components/emoji.PNG';
 function App() {
   

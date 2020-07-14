@@ -1,6 +1,5 @@
 
- import phoneRepairPhoto from './phoneRepairPhoto.jpg';
- import prices from './pricesFor7and8.jpg';
+ 
  import React from 'react';
  import { Fade } from 'react-slideshow-image';
  import 'react-slideshow-image/dist/styles.css';
@@ -28,19 +27,19 @@
        <Fade {...fadeProperties}>
          <div className="each-fade">
            <div className="image-container">
-             <img style={uniformSize} src={fadeImages[0]} />
+             <img style={uniformSize} src={fadeImages[0] } alt=""/>
            </div>
            
          </div>
          <div className="each-fade">
            <div className="image-container">
-             <img style={uniformSize} src={fadeImages[1]} />
+             <img style={uniformSize} src={fadeImages[1]} alt=""/>
            </div>
            
          </div>
          <div className="each-fade">
            <div className="image-container">
-             <img style={uniformSize} src={fadeImages[2]} />
+             <img style={uniformSize} src={fadeImages[2]} alt=""/>
              
            </div>
            

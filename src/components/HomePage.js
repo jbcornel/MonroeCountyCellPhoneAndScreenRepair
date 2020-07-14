@@ -1,5 +1,5 @@
 import React from 'react'
-import phoneRepairPhoto from './phoneRepairPhoto.jpg';
+
 import 'react-slideshow-image/dist/styles.css';
 import Slideshow from './Slideshow';
 function HomePage() {
