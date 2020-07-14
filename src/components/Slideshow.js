@@ -39,7 +39,7 @@
          </div>
          <div className="each-fade">
            <div className="image-container">
-             <img style={uniformSize} src={fadeImages[2]} alt=""/>
+             <img style={thirdImageStyle} src={fadeImages[2]} alt=""/>
              
            </div>
            
@@ -58,4 +58,11 @@ Hello I am Joseph Cornell, Founder and sole employee of Monroe County Cell Phone
      width: '1000px',
      borderRadius: '7px'
  }
+ const thirdImageStyle = {
+  marginTop: '15em',
+  height: 'auto',
+  maxWidth:"80%",
+  transform: 'scale(2.0)',
+  borderRadius: '7px'
+}
  export default Slideshow
