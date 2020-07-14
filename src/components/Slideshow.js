@@ -47,7 +47,7 @@
          
        </Fade>
        <h3 style={{marginBottom: '2em', marginTop: '2em'}}>
-Hello I am Joseph Cornell, Founder and sole employee of Monroe County Cell Phone and Screen Repair. I have replaced screens and repaired hundreds of phones in my career as a Cell Phone Repair Technician and want to offer my low and affordable prices to the Monroe County area! Call for a quote at 734-731-9094.</h3>
+Hello I am Joseph Cornell, Founder and sole propietor of Monroe County Cell Phone and Screen Repair. I have replaced screens and repaired hundreds of phones in my career as a Cell Phone Repair Technician and want to offer my low and affordable prices to the Monroe County area! Call for a quote at 734-731-9094.</h3>
      </div>
    )
  }
