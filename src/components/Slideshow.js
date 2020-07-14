@@ -62,7 +62,7 @@ Hello I am Joseph Cornell, Founder and sole employee of Monroe County Cell Phone
   marginTop: '15em',
   height: 'auto',
   maxWidth:"80%",
-  transform: 'scale(2.0)',
+  
   borderRadius: '7px'
 }
  export default Slideshow
