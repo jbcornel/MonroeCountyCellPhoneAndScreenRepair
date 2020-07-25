@@ -20,6 +20,7 @@ class Contact extends Component {
             <h1 >Contact info: </h1>
             <h2 style= {{marginBottom: '2em'}}>Phone Number: &nbsp; 734-731-9094</h2>
             <h2 style= {{marginBottom: '2em'}}>Email: &nbsp; josephbcornell@gmail.com</h2>
+            <h2 style= {{marginBottom: '2em'}}>Snapchat: &nbsp; joeycornelll</h2>
             <h2 style= {{marginBottom: '1em', textDecoration: 'underline'}}>Location:</h2>
             <h2 style= {{marginBottom: '20em'}}>Mobile service with phone pick up options! So wherever you want. Or call before hand and I can give you the location of my temporary storefront! </h2><footer style={{backgroundColor: 'yellow'}}>Copyright &#169; Joseph Cornell</footer>
         </div>
