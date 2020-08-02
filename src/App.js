@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
 import Prices from './components/Prices';
 import Contact from './components/Contact';
+import Prices from './components/Prices';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import headshot from './components/headshot.JPG';
+
 import emoji from './components/emoji.PNG';
 function App() {
   
