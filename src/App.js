@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
+import Prices from './components/Prices';
 import Contact from './components/Contact';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import headshot from './components/headshot.JPG';
@@ -25,6 +26,8 @@ function App() {
           <Switch style={{marginBottom: '20px'}}>
           <Route exact path='/' component={HomePage} />
           <Route path='/contact' component={Contact}/>
+          <Route path='/prices' component={Prices}/>
+          
           
         </Switch>
      

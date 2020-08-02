@@ -6,13 +6,13 @@ import {Navbar, Nav} from 'react-bootstrap';
 function Header() {
     return (
         <div>
-          <Navbar  bg='dark' expand='lg' style= {{backgroundColor: 'yellow'}}>
+          <Navbar expand='lg' style= {{backgroundColor: 'yellow'}}>
                 
                 <Nav>
                 
-                <NavLink style={linkStyle} className="d-inline p-2 bg-dark "  to="/">Home</NavLink>
-                <NavLink style={linkStyle} className="d-inline p-2 bg-dark " to="/contact">Contact</NavLink>
-               
+                <NavLink style={linkStyle} className="d-inline p-2"  to="/">Home</NavLink>
+                <NavLink style={linkStyle} className="d-inline p-2  " to="/contact">Contact</NavLink>
+                <NavLink style={linkStyle} className="d-inline p-2  " to="/prices">Prices</NavLink>
 
                 </Nav>
             </Navbar>
