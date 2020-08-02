@@ -5,7 +5,6 @@ import Header from './components/Header';
 import HomePage from './components/HomePage';
 import Prices from './components/Prices';
 import Contact from './components/Contact';
-import Prices from './components/Prices';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import emoji from './components/emoji.PNG';
