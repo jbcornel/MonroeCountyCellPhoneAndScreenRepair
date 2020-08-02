@@ -250,6 +250,7 @@ class Prices extends Component {
         
         
         <div className='pricesDropdown'>
+            <h1 style={{color: 'red'}}>THIS PAGE IS STILL IN PRODUCTION, CONTENT BELOW THIS IS NOT VALID AND IS VOID CURRENTLY</h1>
             {/* iphone modal */}
          <Modal show={this.state.showModal} onHide={() => this.handleCloseModal()}> 
         <Modal.Header closeButton>
