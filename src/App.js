@@ -25,7 +25,7 @@ function App() {
           <Switch style={{marginBottom: '20px'}}>
           <Route exact path='/' component={HomePage} />
           <Route path='/contact' component={Contact}/>
-          
+          <Route path='/prices' component={Prices}/>
         </Switch>
      
     </div>

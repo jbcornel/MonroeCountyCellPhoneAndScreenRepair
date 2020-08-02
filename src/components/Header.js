@@ -12,6 +12,7 @@ function Header() {
                 
                 <NavLink style={linkStyle} className="d-inline p-2 bg-dark "  to="/">Home</NavLink>
                 <NavLink style={linkStyle} className="d-inline p-2 bg-dark " to="/contact">Contact</NavLink>
+                <NavLink style={linkStyle} className="d-inline p-2  " to="/prices">Prices</NavLink>
                
 
                 </Nav>

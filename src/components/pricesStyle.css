@@ -1,0 +1,12 @@
+.pricesDropdown {
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+    padding-bottom:20rem;
+    
+}
+
+.dropdownCard {
+    
+}
