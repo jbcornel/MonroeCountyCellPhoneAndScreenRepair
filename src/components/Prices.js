@@ -250,7 +250,7 @@ class Prices extends Component {
         
         
         <div className='pricesDropdown'>
-            <h1 style={{color: 'red'}}>THIS PAGE IS STILL IN PRODUCTION, CONTENT BELOW THIS IS NOT VALID AND IS VOID CURRENTLY</h1>
+            {/* <h1 style={{color: 'red'}}>THIS PAGE IS STILL IN PRODUCTION, CONTENT BELOW THIS IS NOT VALID AND IS VOID CURRENTLY</h1> */}
             {/* iphone modal */}
          <Modal show={this.state.showModal} onHide={() => this.handleCloseModal()}> 
         <Modal.Header closeButton>
@@ -301,7 +301,8 @@ noreferrer"href='https://www.facebook.com/monroecountycellphonerepair'>Follow an
                 <li>Call or text: 734-731-9094</li>
                 <li>Email: josephbcornell@gmail.com</li>
                 <li>Snapchat: joeycornelll</li>
-                <li><a style={{textDecoration: 'none', color: '#5bc0de'}} target='_blank' href='https://www.facebook.com/monroecountycellphonerepair'>Message us on Facebook</a></li>
+                <li><a style={{textDecoration: 'none', color: '#5bc0de'}} target='_blank' rel="noopener 
+noreferrer" href='https://www.facebook.com/monroecountycellphonerepair'>Message us on Facebook</a></li>
             </ul>
         </Modal.Body>
         <Modal.Footer>
@@ -319,7 +320,7 @@ noreferrer"href='https://www.facebook.com/monroecountycellphonerepair'>Follow an
             <Card.Text>
                  check our selection of iPhone repairs
             </Card.Text>
-            <DropdownButton drop='right' size='lg' variant="info" id="dropdown-basic-button" title="iPhones">
+            <DropdownButton drop='right' size='md' variant="info" id="dropdown-basic-button" title="iPhones">
             <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[0])} variant="info" as="button">iPhone 11</Dropdown.Item>
             <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[1])} variant="info" as="button">iPhone XS MAX</Dropdown.Item>
             <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[2])} variant="info" as="button">iPhone XS</Dropdown.Item>
@@ -341,7 +342,7 @@ noreferrer"href='https://www.facebook.com/monroecountycellphonerepair'>Follow an
             <Card.Text>
                  check our selection of Samsung Galaxy and Note repairs
             </Card.Text>
-            <DropdownButton  drop='right' size='lg' variant="info" id="dropdown-basic-button" title="Samsung">
+            <DropdownButton  drop='right' size='md' variant="info" id="dropdown-basic-button" title="Samsung">
             <Dropdown.Item  onClick={() => this.handleOpenModal('samsung', arrayOfSamsungs[0])} variant="info" as="button">S20</Dropdown.Item>
             <Dropdown.Item  onClick={() => this.handleOpenModal('samsung', arrayOfSamsungs[1])} variant="info" as="button">S10 Lite</Dropdown.Item>
             <Dropdown.Item  onClick={() => this.handleOpenModal('samsung', arrayOfSamsungs[2])} variant="info" as="button">S10 5G</Dropdown.Item>
@@ -366,7 +367,7 @@ noreferrer"href='https://www.facebook.com/monroecountycellphonerepair'>Follow an
             <Card.Text>
                  contact us to schedule an appointment or to see if we offer repairs on your device!
             </Card.Text>
-            <Button onClick={() => this.handleContactModal()} size='lg' variant="info">
+            <Button onClick={() => this.handleContactModal()} size='md' variant="info">
             Contact Us
         </Button>
             </Card.Body>
