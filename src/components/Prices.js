@@ -297,6 +297,7 @@ noreferrer"href='https://www.facebook.com/monroecountycellphonerepair'>Follow an
           <Modal.Title>Contact Us</Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <p>contact us to schedule an appointment or to see if we offer repairs on your device!</p>
             <ul>
                 <li>Call or text: 734-731-9094</li>
                 <li>Email: josephbcornell@gmail.com</li>
@@ -365,7 +366,7 @@ noreferrer" href='https://www.facebook.com/monroecountycellphonerepair'>Message 
         <Card.Body>
             <Card.Title>Shop Other Repairs</Card.Title>
             <Card.Text>
-                 contact us to schedule an appointment or to see if we offer repairs on your device!
+                 contact us to see if we offer repairs on your device!
             </Card.Text>
             <Button onClick={() => this.handleContactModal()} size='md' variant="info">
             Contact Us
