@@ -12,7 +12,7 @@ function Header() {
                 
                 <NavLink style={linkStyle} className="d-inline p-2"  to="/">Home</NavLink>
                 <NavLink style={linkStyle} className="d-inline p-2  " to="/contact">Contact</NavLink>
-                <NavLink style={linkStyle} className="d-inline p-2  " to="/prices">Prices</NavLink>
+                {/* <NavLink style={linkStyle} className="d-inline p-2  " to="/prices">Prices</NavLink> */}
 
                 </Nav>
             </Navbar>

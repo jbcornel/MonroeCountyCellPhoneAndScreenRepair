@@ -79,7 +79,7 @@ class Prices extends Component {
                 
             },
             {
-                name: 'iphone X',
+                name: 'iPhone X',
                 screenRepairPrice: '$99 OLED Screen',
                 batteryPrice: '$70',
                 chargingPortPrice: '$49',
@@ -87,7 +87,7 @@ class Prices extends Component {
                 frontCameraPrice: '$55',
             },
             {
-                name: 'iphone XR',
+                name: 'iPhone XR',
                 screenRepairPrice: '$99 LCD',
                 batteryPrice: '$65',
                 chargingPortPrice: '$49',
@@ -96,7 +96,7 @@ class Prices extends Component {
         
             },
             {
-                name: 'iphone 8+',
+                name: 'iPhone 8+',
                 screenRepairPrice: '$69',
                 batteryPrice: '$TBA',
                 chargingPortPrice: '$TBA',
@@ -105,7 +105,7 @@ class Prices extends Component {
         
             },
             {
-                name: 'iphone 8',
+                name: 'iPhone 8',
                 screenRepairPrice: '$69',
                 batteryPrice: '$TBA',
                 chargingPortPrice: '$TBA',
@@ -114,7 +114,7 @@ class Prices extends Component {
         
             },
             {
-                name: 'iphone 7+',
+                name: 'iPhone 7+',
                 screenRepairPrice: '$69',
                 batteryPrice: '$TBA',
                 chargingPortPrice: '$TBA',
@@ -123,7 +123,7 @@ class Prices extends Component {
         
             },
             {
-                name: 'iphone 7',
+                name: 'iPhone 7',
                 screenRepairPrice: '$69',
                 batteryPrice: '$TBA',
                 chargingPortPrice: '$TBA',
@@ -132,7 +132,7 @@ class Prices extends Component {
         
             },
             {
-                name: 'iphone 6s+',
+                name: 'iPhone 6s+',
                 screenRepairPrice: '$69',
                 batteryPrice: '$TBA',
                 chargingPortPrice: '$TBA',
@@ -141,7 +141,7 @@ class Prices extends Component {
         
             },
             {
-                name: 'iphone 6s',
+                name: 'iPhone 6s',
                 screenRepairPrice: '$69',
                 batteryPrice: '$TBA',
                 chargingPortPrice: '$TBA',
@@ -150,7 +150,7 @@ class Prices extends Component {
         
             },
             {
-                name: 'iphone 6',
+                name: 'iPhone 6+',
                 screenRepairPrice: '$59',
                 batteryPrice: '$TBA',
                 chargingPortPrice: '$TBA',
@@ -159,7 +159,7 @@ class Prices extends Component {
         
             },
             {
-                name: 'iphone 6+',
+                name: 'iPhone 6',
                 screenRepairPrice: '$59',
                 batteryPrice: '$TBA',
                 chargingPortPrice: '$TBA',
@@ -327,12 +327,14 @@ noreferrer" href='https://www.facebook.com/monroecountycellphonerepair'>Message 
             <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[2])} variant="info" as="button">iPhone XS</Dropdown.Item>
             <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[3])} variant="info" as="button">iPhone X</Dropdown.Item>
             <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[4])} variant="info" as="button">iPhone XR</Dropdown.Item>
-            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[4])} variant="info" as="button">iPhone 8+</Dropdown.Item>
-            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[4])} variant="info" as="button">iPhone 8</Dropdown.Item>
-            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[4])} variant="info" as="button">iPhone 7+</Dropdown.Item>
-            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[4])} variant="info" as="button">iPhone 7</Dropdown.Item>
-            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[4])} variant="info" as="button">iPhone 6s & 6s+</Dropdown.Item>
-            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[4])} variant="info" as="button">iPhone 6 & 6+</Dropdown.Item>
+            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[5])} variant="info" as="button">iPhone 8+</Dropdown.Item>
+            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[6])} variant="info" as="button">iPhone 8</Dropdown.Item>
+            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[7])} variant="info" as="button">iPhone 7+</Dropdown.Item>
+            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[8])} variant="info" as="button">iPhone 7</Dropdown.Item>
+            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[9])} variant="info" as="button">iPhone 6s+</Dropdown.Item>
+            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[10])} variant="info" as="button">iPhone 6s</Dropdown.Item>
+            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[11])} variant="info" as="button">iPhone 6+</Dropdown.Item>
+            <Dropdown.Item  onClick={() => this.handleOpenModal('iphone', arrayOfIphones[12])} variant="info" as="button">iPhone 6</Dropdown.Item>
         </DropdownButton>
             </Card.Body>
       </Card>

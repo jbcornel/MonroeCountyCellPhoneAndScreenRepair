@@ -1,14 +1,14 @@
 import React from 'react'
 
 import 'react-slideshow-image/dist/styles.css';
-import Slideshow from './Slideshow';
+import Prices from './Prices';
 function HomePage() {
     return (
         <div>
             <title>Monroe County Cell Phone and Screen Repair</title>
             <header style={{fontSize: "large" }}>
             
-            <Slideshow/>
+            <Prices/>
             
             </header>
 
