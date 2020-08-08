@@ -15,11 +15,11 @@ class Contact extends Component {
         <div style={{display:'flex', marginBottom:'10rem'}}>
             <title>Monroe County Cell Phone and Screen Repair</title>
                     <Figure>
-                    <img style={{padding:'2rem', borderRadius:'4rem'}}src={contactPhoto} height='90%' width='85%'alt=""></img>
+                    <img style={{padding:'5%', borderRadius:'4rem'}}src={contactPhoto} height='90%' width='85%'alt=""></img>
                     <FigureCaption style={{color: 'black'}}>Who you'll be speaking to; Joey Cornell</FigureCaption>
                     </Figure>
                     <Figure>
-                <ListGroup style={{padding:'2rem', borderRadius:'4rem'}}>
+                <ListGroup style={{padding:'5%', borderRadius:'4rem'}}>
                     <ListGroup.Item>Call or Text: &nbsp; 734-731-9094</ListGroup.Item>
                     <ListGroup.Item>Email: &nbsp; josephbcornell@gmail.com</ListGroup.Item>
                     <ListGroup.Item>Snapchat: &nbsp; joeycornelll</ListGroup.Item>
