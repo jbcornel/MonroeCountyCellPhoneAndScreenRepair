@@ -15,7 +15,7 @@ class Contact extends Component {
         <div style={{ marginBottom:'10rem'}}>
             <title>Monroe County Cell Phone and Screen Repair</title>
                     <Figure>
-                    <img style={{padding:'2rem', borderRadius:'4rem'}}src={contactPhoto} height='30%' width='30%'alt=""></img>
+                    <img style={{padding:'2rem', borderRadius:'4rem'}}src={contactPhoto} height='45%' width='45%'alt=""></img>
                     <FigureCaption style={{color: 'black'}}>Who you'll be speaking to; Joey Cornell</FigureCaption>
                     </Figure>
                     <Figure>
